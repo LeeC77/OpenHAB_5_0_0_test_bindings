@@ -11,9 +11,9 @@ Check that
 
 now populate correctly with values.
 
-# Obtain solar Response
-Turn on the binding logging level to trace to see the raw responses from SunSynk Connect. 
-This can be done via sellecting the binding in the addon store and the pressing the cog.
+# Obtain Solar Response
+Set the binding logging level to trace to see the raw responses from SunSynk Connect. 
+This can be done via selecting the binding in the addon store and then pressing the cog.
 Don't forget to press save.
 Open the log viewer in the developers tools and look / search for TRACE events prefixed with org.openhab.binding.sunsynk.internal.api.DeviceController. 
 Every minute, assuming default timing the trace for 
