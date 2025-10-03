@@ -41,4 +41,7 @@ e.g. channels for
 Support for
 * Grid frequecy
 * Solar String 1 Voltage, Current and Power
-* Solar String 2 Voltage, Current and Power 
+* Solar String 2 Voltage, Current and Power
+* Sloar Energy today, this month, this year  and total
+* Solat Efficiency and current ac-power
+* Inverter capacity
