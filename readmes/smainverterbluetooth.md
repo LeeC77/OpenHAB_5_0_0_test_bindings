@@ -1,6 +1,6 @@
 # SMA Inverter Bluetooth Binding
 
-This binding fetches data from a SMA inverter over Bluetooth. If your inverter works with [Sunny Explorer](https://www.sma.de/en/products/energy-management/sunny-explorer) then it is likely to work with this binding.
+This binding fetches data from an SMA inverter over Bluetooth. If your inverter works with [Sunny Explorer](https://www.sma.de/en/products/energy-management/sunny-explorer) then it is likely to work with this binding.
 SMA's Bluetooth protocol is proprietary and has been partly reverse engineered by the GitHub community.
 As the Java BlueCove library is not maintained and likely not compatible with Java 21 or later, the development of a Bluetooth interface is better achieved using the Python [pybluez](https://github.com/pybluez/pybluez) module for low-level Bluetooth Classic (BR/EDR) socket communication.
 
@@ -41,15 +41,8 @@ If you don't have Linux available there are Apps for Android or Windows that hav
 This binding requires that an additional utility sma2json is installed on your openHAB userdata directory.
 The utility is a CLI that connects to the SMA inverter via Bluetooth and returns a number of parameters.
 
-To build the executable for your operating system start by downloading all you need from this repository. On the computer you run openHAB in a terminal window type:
-
-For Linux ```wget https:// TODO```
- Follow the instructions in the downloaded folder.
-
-For Windows ```curl "https:// TODO .zip"```
- Unzip and follow the instructions.
-
-Once you have completed the installation you should have the sma2json.exe utility in the folder $OPENHAB_HOME/userdata/files. You can test it out from its home directory with this command.
+All you need to build an executable for your operating system is on this [repository](https://github.com/LeeC77/bluetooth_sma_2_json_cli). Follow the instructions in the readme.
+Once you have completed the installation you should have the sma2json.exe utility in the folder $OPENHAB_USERDATA/files/. You can test it out from its home directory with this command.
 
 ```
 >> sma2json.exe -b<00:00:00:00:00:00> -p<yourpassword>
