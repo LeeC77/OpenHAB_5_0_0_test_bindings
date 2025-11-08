@@ -1,6 +1,6 @@
 # OpenHAB Bindings
 
-This repository containa test bindings for openHAB.
+This repository contains test bindings for openHAB.
 
 Currently there are bindings for
 - org.openhab.binding.smainverterbluetooth
