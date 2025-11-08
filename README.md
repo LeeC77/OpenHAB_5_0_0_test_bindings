@@ -1,4 +1,17 @@
-# Issues Resolution
+# OpenHAB Bindings
+
+This repository containa test bindings for openhab
+Currently there are bindings for
+- org.openhab.binding.smainverterbluetooth
+- org.openhab.binding.sunsynk (this is an update and will included in the next openHQAB release 5.1.0)
+
+
+## smainverterbluetooth
+This is a new binding see the [https://github.com/LeeC77/OpenHAB_5_0_0_test_bindings/blob/main/readmes/smainverterbluetooth.md)
+
+## sunsynk
+ See (readme)[https://github.com/LeeC77/OpenHAB_5_0_0_test_bindings/blob/main/readmes/sunsynk.md]
+### Issues Resolution
 
 [OpenHAB Community Issue](https://community.openhab.org/t/new-sun-synk-connect-account-and-inverter-binding/155680/8?u=leec77)
 
@@ -9,7 +22,7 @@ Check that
 * Battery Voltage
 now populate correctly with values.
 
-# Binding Enhancement Support for solar
+### Binding Enhancement Support for solar
 
 Support for
 * Grid frequency
