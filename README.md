@@ -4,7 +4,7 @@ This repository contains test bindings for openHAB.
 
 Currently there are bindings for
 - org.openhab.binding.smainverterbluetooth
-- org.openhab.binding.sunsynk (this is an update and will included in the next openHQAB release 5.1.0)
+- org.openhab.binding.sunsynk (this is an update and will included in the next openHAB release 5.1.0)
 
 ## smainverterbluetooth
 This is a new binding see the [read.me](https://github.com/LeeC77/OpenHAB_5_0_0_test_bindings/blob/main/readmes/smainverterbluetooth.md)
