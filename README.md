@@ -39,4 +39,4 @@ Support for
 * Solar String 2 Voltage, Current and Power
 * Solar Energy today, this month, this year  and total
 * Solar Efficiency and current ac-power
-* Inverter capacity
+* Inverter Rated Output
